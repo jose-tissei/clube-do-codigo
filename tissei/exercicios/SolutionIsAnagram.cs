@@ -1,12 +1,12 @@
-public class Solution {
+public class Solutions {
     public bool IsAnagram(string s, string t) 
     {
-        sd = ToDict(s);
-        td = ToDict(t);
+        var sd = ToDict(s);
+        var td = ToDict(t);
         
         foreach(var key in sd.Keys)
         {
-            var value;
+            var value = 0;
             var exists = td.TryGetValue(key, out value);
             if(!exists || sd[key] != value) return false;
         }

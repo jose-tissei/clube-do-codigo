@@ -1,4 +1,4 @@
-public class Solution {
+public class SolutionHasDuplicate {
     public bool hasDuplicate(int[] nums)
     {
         var dict = new Dictionary<int, int>();
