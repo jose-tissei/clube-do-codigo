@@ -57,5 +57,22 @@ namespace tests
             // Assert
             result.ShouldBe(51);
         }
+
+        [Fact]
+        public void NumMatchingSubseq_StateUnderTest_ExpectedBehavior4()
+        {
+            // Arrange
+            var solutionNumMatchingSubseq = new SolutionNumMatchingSubseq();
+            string s = "abcde";
+            string[] words = ["ace"];
+
+            // Act
+            var result = solutionNumMatchingSubseq.NumMatchingSubseq(
+                s,
+                words);
+
+            // Assert
+            result.ShouldBe(1);
+        }
     }
 }
