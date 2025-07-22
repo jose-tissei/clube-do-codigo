@@ -1,4 +1,6 @@
 // https://neetcode.io/problems/two-integer-sum?list=neetcode150
+namespace clube_codigo_ha__er.week_1.two_sum;
+
 public class Solution
 {
     public int[] TwoSum(int[] nums, int target)

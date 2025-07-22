@@ -1,4 +1,6 @@
 //https://neetcode.io/problems/anagram-groups?list=neetcode150
+namespace clube_codigo_ha__er.week_2.group_anagrams;
+
 public class Solution
 {
     public List<List<string>> GroupAnagrams(string[] strs)

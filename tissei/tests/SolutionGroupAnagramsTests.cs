@@ -3,7 +3,7 @@ using Shouldly;
 
 namespace tests
 {
-    public class UnitTest1
+    public class SolutionGroupAnagramsTests
     {
         [Fact]
         public void Test1()

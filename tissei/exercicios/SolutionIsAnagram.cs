@@ -1,4 +1,5 @@
-public class Solutions {
+public class SolutionIsAnagram
+{
     public bool IsAnagram(string s, string t) 
     {
         var sd = ToDict(s);

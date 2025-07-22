@@ -18,7 +18,7 @@ namespace exercicios
                 var key = 1;
                 foreach (var chr in word)
                 {
-                    key = key * (chr + 2);
+                    key = key * chr;
                 }
 
                 if (dict.TryGetValue(key, out List<string>? value))
@@ -31,7 +31,7 @@ namespace exercicios
                 }
             }
 
-            return dict.Select(x => x.Value).ToList();
+            return dict.Values.ToList();
         }
 
         //PQP FIQUEI 1 HORA FAZENDO ESSSA GAMBI SENDO QUE ERA SO EU MULTIPLICAAAAA
