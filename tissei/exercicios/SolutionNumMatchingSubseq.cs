@@ -25,9 +25,10 @@ namespace exercicios
             }
 
             var validSubSeqs = 0;
-
+            //abcde => bb
+            //=> 
             foreach (var word in words)
-            {
+            {  
                 var index = -1;
                 var isValidSubSeq = true;
                 foreach (var chr in word)
@@ -64,12 +65,13 @@ namespace exercicios
         //public int NumMatchingSubseq(string s, string[] words)
         //{
         //    var map = new Dictionary<char, List<int>>();
-        //    for(var i = 0; i < s.Length; i++)
+        //    for (var i = 0; i < s.Length; i++)
         //    {
         //        if (map.TryGetValue(s[i], out var list))
         //        {
         //            list.Add(i);
-        //        } else
+        //        }
+        //        else
         //        {
         //            map[s[i]] = new List<int>() { i };
         //        }
@@ -90,9 +92,9 @@ namespace exercicios
         //            }
 
         //            isValidSubSeq = false;
-        //            foreach(var si in map[word[i]])
+        //            foreach (var si in map[word[i]])
         //            {
-        //                if(si > index)
+        //                if (si > index)
         //                {
         //                    index = si;
         //                    isValidSubSeq = true;
@@ -105,7 +107,7 @@ namespace exercicios
         //                break;
         //            }
         //        }
-        //        if(isValidSubSeq) validSubSeqs++;
+        //        if (isValidSubSeq) validSubSeqs++;
         //    }
 
         //    return validSubSeqs;
@@ -117,7 +119,7 @@ namespace exercicios
         //    var counter = 0;
         //    foreach (var word in words)
         //    {
-        //        bool isSubSeq =  true;
+        //        bool isSubSeq = true;
         //        var dict = new Dictionary<char, int>();
         //        foreach (var chr in word)
         //        {
@@ -127,7 +129,7 @@ namespace exercicios
         //                break;
         //            }
 
-        //            if(dict.TryGetValue(chr, out var count))
+        //            if (dict.TryGetValue(chr, out var count))
         //            {
         //                count++;
 
@@ -146,7 +148,7 @@ namespace exercicios
 
         //        }
 
-        //        if(isSubSeq) counter++;
+        //        if (isSubSeq) counter++;
         //    }
 
         //    return counter;
