@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercises-hammer", "exercises-hammer\exercises-hammer.csproj", "{BC0D1A5E-1ACD-43C9-8582-38581BAE09B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{E625B4E3-880A-4ECF-991F-A5423BF3592B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC0D1A5E-1ACD-43C9-8582-38581BAE09B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0D1A5E-1ACD-43C9-8582-38581BAE09B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0D1A5E-1ACD-43C9-8582-38581BAE09B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0D1A5E-1ACD-43C9-8582-38581BAE09B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E625B4E3-880A-4ECF-991F-A5423BF3592B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E625B4E3-880A-4ECF-991F-A5423BF3592B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E625B4E3-880A-4ECF-991F-A5423BF3592B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E625B4E3-880A-4ECF-991F-A5423BF3592B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

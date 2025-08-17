@@ -1,4 +1,6 @@
 // https://neetcode.io/problems/duplicate-integer?list=neetcode150
+namespace clube_codigo_hammer.week_1.contains_duplicate;
+
 public class Solution
 {
     public bool hasDuplicate(int[] nums)

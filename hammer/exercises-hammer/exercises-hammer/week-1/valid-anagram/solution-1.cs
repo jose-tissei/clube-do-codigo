@@ -1,4 +1,6 @@
 //https://neetcode.io/problems/is-anagram?list=neetcode150
+namespace clube_codigo_ha__er.week_1.valid_anagram;
+
 public class Solution
 {
     public bool IsAnagram(string s, string t)
